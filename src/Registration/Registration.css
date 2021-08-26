@@ -1,0 +1,18 @@
+.Registration {
+   
+    text-align: center;
+    
+ }
+ .Registration input {
+    padding: 5px;
+    border-radius: 5px;
+    width: 400px;
+ }
+
+ .Registration p {
+    font-size: 20px;
+ }
+  .btn {
+   
+    width: 400px;
+ }
