@@ -1,16 +1,14 @@
 .Header {
     font-family: 'Kaisei HarunoUmi', serif; 
    
+   
 }
 
-    
-  
 .Header li {
     display: inline;
     margin-left: 40px;
     font-size: 30px;
-   
-   
+  
   }
   
   .Header a {

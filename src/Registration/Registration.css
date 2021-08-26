@@ -1,18 +1,21 @@
 .Registration {
-   
-    text-align: center;
-    
- }
- .Registration input {
-    padding: 5px;
-    border-radius: 6px;
-    width: 400px;
- }
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 0;
+ 
 
+  }
+  
  .Registration p {
     font-size: 22px;
  }
   .btn {
-   
-    width: 400px;
+    width: 410px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
  }

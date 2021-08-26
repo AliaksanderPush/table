@@ -5,13 +5,13 @@ import './Input.css';
 
 const Input = props => {
   const inputType = props.type,
-        cls = [Input],
+        cls = ["Input"],
         htmlFor = `${inputType}-${Math.random()}`;
-
+  
 
 
     return (
-        <div className = {cls.join(' ')} > 
+        <div className = {cls.join(' ')}> 
         <label htmlFor = {htmlFor}></label>
         <input 
         id = {htmlFor}
