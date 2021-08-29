@@ -1,7 +1,24 @@
-.Input input {
-    width: 400px;
-    height: 25px;
-    margin: 10px 0;
-    border-radius: 5px;
+.Input {
+  text-align: center;
+}
 
+.Input input {
+  width: 400px;
+  height: 25px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid purple;
+  padding: 7px;
+  outline: none;
+  transition: all 300ms ease-in-out;
+}
+.Input p {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Input.invalid label {
+  color: red;
 }
